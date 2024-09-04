@@ -1,0 +1,20 @@
+<div class="search-container">    
+    <button (click)="buscarUsuarios()">Buscar</button>
+</div>
+
+<table *ngIf="usuarios && usuarios.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre Completo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios">
+        <td>{{ usuario.usuID }}</td>
+        <td>{{ usuario.nombre }} {{ usuario.apellido }}</td>
+      </tr>
+    </tbody>
+</table>
+
+<p *ngIf="usuarios && usuarios.length === 0">No se encontraron usuarios.</p>

@@ -1,0 +1,99 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de salida
+dist/
+build/
+
+# Directorios temporales
+tmp/
+temp/
+
+# Directorios de Angular
+.angular/
+
+# Directorios de cobertura de pruebas
+coverage/
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos y directorios de Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.swp
+*.wlk
+*.ide
+*.sln.docstates
+*.sln.ide
+*.sln.suo
+*.sln.user
+
+# Archivos binarios y de compilación de .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.obj
+*.bin
+
+# Archivos de configuración de NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+.nuget/project.assets.json
+
+# Archivos de configuración de MSBuild
+*.props
+*.targets
+
+# Archivos de configuración de proyecto
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.cache
+*.csproj.nuget.g.locked
+
+# Directorios de salida de proyectos .NET
+PT_SIxDegrees.Api.Business/bin/
+PT_SIxDegrees.Api.Business/obj/
+PT_SIxDegrees.Api.DataAccess/bin/
+PT_SIxDegrees.Api.DataAccess/obj/
+WebApplication/bin/
+WebApplication/obj/
+
+# Archivos de configuración de Angular
+SixDegreesFront/.angular/cache
+SixDegreesFront/.history
+SixDegreesFront/.sass-cache
+SixDegreesFront/.connect.lock
+SixDegreesFront/.coverage
+SixDegreesFront/.libpeerconnection.log
+SixDegreesFront/.testem.log
+SixDegreesFront/.typings
