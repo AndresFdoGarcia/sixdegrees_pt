@@ -8,6 +8,11 @@ PT_SixDegrees es un proyecto que implementa una aplicación web utilizando tecno
 
 La estructura del proyecto es la siguiente:
 
+## Desarrolladores
+
+- **Andres García**
+
+
 
 ## Tecnologías Utilizadas
 
@@ -60,6 +65,10 @@ La estructura del proyecto es la siguiente:
 
 3. Abre tu navegador y navega a `http://localhost:4200`.
 
+
+## Notas Adicionales
+
+En la carpeta [`Anexos`] se encuentra el script de creación de la base de datos ([`init.sql`].
 
 
 ## Licencia
